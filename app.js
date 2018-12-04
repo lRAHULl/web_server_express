@@ -49,6 +49,8 @@ app.get("/about", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
-  console.log("Server Started.");
+var PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("Server Started at port:", PORT);
 });
