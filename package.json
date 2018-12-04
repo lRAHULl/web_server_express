@@ -1,0 +1,17 @@
+{
+  "name": "web_server_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lRAHULl",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^5.9.0",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "morgan": "^1.9.1"
+  }
+}
